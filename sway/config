@@ -1,0 +1,27 @@
+# Config for sway
+#
+# Read `man 5 sway` for a complete reference.
+
+exec swaymsg reload
+
+# user config directory
+include $HOME/.config/sway/config.d/*
+
+#WALLPAPER
+output * bg /home/hrvoje-kajba/bay.JPG fill
+
+#BORDERS
+gaps inner 5
+gaps outer 5
+
+#SCREENSHOT
+bindsym Mod4+Shift+p exec grimshot save area
+
+#GTK THEMES
+set $gnome-schema org.gnome.desktop.interface
+
+exec_always {
+    gsettings set org.gnome.desktop.interface gtk-theme 'Dracula'
+    gsettings set org.gnome.desktop.interface icon-theme 'Papirus'
+}
+

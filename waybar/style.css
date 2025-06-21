@@ -1,0 +1,86 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: monospace, monospace;
+  font-size: 14px;
+  min-height: 0;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+window#waybar {
+  background: rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  background: transparent;
+  color: white;
+  border-bottom: 3px solid transparent;
+}
+
+#workspaces button.focused {
+  background: #64727D;
+  border-bottom: 3px solid white;
+}
+
+.modules-left {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.modules-center {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.modules-right {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#mode {
+  background: #64727D;
+  border-bottom: 3px solid white;
+}
+
+#clock {
+  color: white;
+}
+
+#battery {
+  color: white;
+}
+
+#battery.charging {
+  color: limegreen;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: black;
+  }
+}
+
+#battery.warning:not(.charging) {
+  color: orangered;
+}
