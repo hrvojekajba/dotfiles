@@ -9,6 +9,20 @@ return {
     end,
   },
   {
+    "catppuccin/nvim",
+    priority = 1000,
+    config = function()
+      require("catppuccin").setup({
+        flavour = "auto",
+        background = {
+          light = "latte",
+          dark = "mocha",
+        },
+        transparent_background = true,
+      })
+    end,
+  },
+  {
     "sainnhe/gruvbox-material",
     lazy = true,
     config = function()
@@ -68,7 +82,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "everforest",
     },
   },
 }

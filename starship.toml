@@ -26,13 +26,13 @@ $time\n  \
 palette = "rose-pine-moon"
 
 [palettes.rose-pine-moon]
-overlay = '#393552'
-love = '#eb6f92'
-gold = '#f6c177'
-rose = '#ea9a97'
-pine = '#3e8fb0'
-foam = '#9ccfd8'
-iris = '#c4a7e7'
+overlay = '#4f5b58' #org=#393552 new=#4f5b58
+love = '#a7c080' #org=#eb6f92 new=#a7c080
+gold = '#dbbc7f' #org=#f6c177 new=#dbbc7f
+rose = '#a7c080' #org=#ea9a97 new=#a7c080
+pine = '#a7c080' #org=#3e8fb0 new=#a7c080
+foam = '#7fbbb3' #org=#9ccfd8 new=#fbbb3
+iris = '#d3c6aa' #org=#c4a7e7 new=#d3c6aa
 
 [directory]
 format = "[](fg:overlay)[ $path ]($style)[](fg:overlay) "
