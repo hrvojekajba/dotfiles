@@ -1,4 +1,5 @@
 * {
+  color: #D3C6AA;
   border: none;
   border-radius: 0;
   font-family: monospace, monospace;
@@ -11,8 +12,8 @@
 }
 
 window#waybar {
-  background: rgba(0, 0, 0, 0.25);
-  color: white;
+  background: rgba(30, 35, 38, 0.5);
+  color: #D3C6AA;
 }
 
 tooltip {
@@ -27,32 +28,32 @@ tooltip label {
 #workspaces button {
   padding: 0 5px;
   background: transparent;
-  color: white;
+  color: #D3C6AA;
   border-bottom: 3px solid transparent;
 }
 
 #workspaces button.focused {
-  background: #64727D;
-  border-bottom: 3px solid white;
+    border: solid 2px rgba(167, 192, 128, 1);
+    border-radius: 3px;
 }
 
 .modules-left {
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(30, 35, 38, 0.85);
   padding-left: 8px;
   padding-right: 8px;
 }
 
 .modules-center {
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(30, 35, 38, 0.85);
   padding-left: 8px;
   padding-right: 8px;
 }
 
 .modules-right {
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(30, 35, 38, 0.85);
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -63,15 +64,15 @@ tooltip label {
 }
 
 #clock {
-  color: white;
+  color: #D3C6AA;
 }
 
 #battery {
-  color: white;
+  color: #D3C6AA;
 }
 
 #battery.charging {
-  color: limegreen;
+  color: #83c092;
 }
 
 @keyframes blink {
@@ -82,5 +83,5 @@ tooltip label {
 }
 
 #battery.warning:not(.charging) {
-  color: orangered;
+  color: #e69875;
 }
