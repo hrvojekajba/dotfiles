@@ -4,11 +4,18 @@
 
 exec swaymsg reload
 
+#OUTPUTS
+include outputs
+include workspaces
 # user config directory
 include $HOME/.config/sway/config.d/*
 
+#WORKSPACE
+workspace 1 output DP-2
+workspace 1 output HDMI-A-1
+
 #WALLPAPER
-output * bg /home/hrvoje-kajba/bay.JPG fill
+output * bg /home/hrvojekajba/flowers.png fill
 
 #BORDERS
 gaps inner 5
@@ -25,3 +32,6 @@ exec_always {
     gsettings set org.gnome.desktop.interface icon-theme 'Papirus'
 }
 
+
+#BORDERS
+default_border pixel 3
