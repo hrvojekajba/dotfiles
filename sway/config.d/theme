@@ -26,7 +26,7 @@ font pango:MonaspiceNe Nerd Font Mono 10
 # Thin borders:
 
 # Set wallpaper:
-exec output * bg /home/hrvoje-kajba/bay.JPG fill
+exec output * bg /home/hrvojekajba/mountains.JPG fill
 
 # Title format for windows
 for_window [shell="xdg_shell"] title_format "%title (%app_id)"
