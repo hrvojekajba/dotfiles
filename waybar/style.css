@@ -1,5 +1,5 @@
 * {
-  color: #D3C6AA;
+  color: #A5A7A4;
   border: none;
   border-radius: 0;
   font-family: monospace, monospace;
@@ -12,7 +12,7 @@
 }
 
 window#waybar {
-  background: rgba(30, 35, 38, 0.5);
+  background: rgba(19, 23, 29, 0.2);
   color: #D3C6AA;
 }
 
@@ -33,27 +33,30 @@ tooltip label {
 }
 
 #workspaces button.focused {
-    border: solid 2px rgba(167, 192, 128, 1);
+    border: solid 2px rgba(197, 201, 199, 1);
     border-radius: 3px;
 }
 
 .modules-left {
   border-radius: 5px;
-  background-color: rgba(30, 35, 38, 0.85);
+  border: 1px solid #c5c9c7;
+  background-color: rgba(19, 23, 29, 0.9);
   padding-left: 8px;
   padding-right: 8px;
 }
 
 .modules-center {
   border-radius: 5px;
-  background-color: rgba(30, 35, 38, 0.85);
+  border: 1px solid #c5c9c7;
+  background-color: rgba(19, 23, 29, 0.9);
   padding-left: 8px;
   padding-right: 8px;
 }
 
 .modules-right {
   border-radius: 5px;
-  background-color: rgba(30, 35, 38, 0.85);
+  border: 1px solid #c5c9c7;
+  background-color: rgba(19, 23, 29, 0.9);
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -64,11 +67,11 @@ tooltip label {
 }
 
 #clock {
-  color: #D3C6AA;
+  color: #A5A7A4;
 }
 
 #battery {
-  color: #D3C6AA;
+  color: #A5A7A4;
 }
 
 #battery.charging {

@@ -15,7 +15,7 @@ workspace 1 output DP-2
 workspace 1 output HDMI-A-1
 
 #WALLPAPER
-output * bg /home/hrvojekajba/flowers.png fill
+output * bg /home/hrvojekajba/kanso.jpg fill
 
 #BORDERS
 gaps inner 5
@@ -35,3 +35,4 @@ exec_always {
 
 #BORDERS
 default_border pixel 3
+

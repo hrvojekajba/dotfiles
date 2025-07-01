@@ -10,7 +10,10 @@ input type:touchpad {
 }
 
 # Enable numlock by default
-input type:keyboard xkb_numlock enabled
+input * {
+    xkb_layout "us,hr"
+    xkb_options "grp:win_space_toggle"
+  }
 
 # Set keyboard layout and variant based on current system settings
 exec_always {
