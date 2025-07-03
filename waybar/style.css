@@ -1,5 +1,5 @@
 * {
-  color: #A5A7A4;
+  color: white;
   border: none;
   border-radius: 0;
   font-family: monospace, monospace;
@@ -12,7 +12,7 @@
 }
 
 window#waybar {
-  background: rgba(19, 23, 29, 0.2);
+  background: rgba(30, 30, 30, 0.2);
   color: #D3C6AA;
 }
 
@@ -33,14 +33,14 @@ tooltip label {
 }
 
 #workspaces button.focused {
-    border: solid 2px rgba(197, 201, 199, 1);
+    border: solid 2px rgba(30, 30, 30, 1);
     border-radius: 3px;
 }
 
 .modules-left {
   border-radius: 5px;
   border: 1px solid #c5c9c7;
-  background-color: rgba(19, 23, 29, 0.9);
+  background-color: rgba(30, 30, 30, 0.9);
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -48,7 +48,7 @@ tooltip label {
 .modules-center {
   border-radius: 5px;
   border: 1px solid #c5c9c7;
-  background-color: rgba(19, 23, 29, 0.9);
+  background-color: rgba(30, 30, 30, 0.9);
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -56,7 +56,7 @@ tooltip label {
 .modules-right {
   border-radius: 5px;
   border: 1px solid #c5c9c7;
-  background-color: rgba(19, 23, 29, 0.9);
+  background-color: rgba(30, 30, 30, 0.9);
   padding-left: 8px;
   padding-right: 8px;
 }

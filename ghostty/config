@@ -44,7 +44,8 @@
 
 font-family = "MonaspiceNe Nerd Font Mono"
 
-background = 14171D
-background-opacity = 0.8
+background = 1E1E1E
+#13171C kanso
+background-opacity = 0.9
 foreground = C5C9C7
-window-padding-x = 18
+window-padding-x = 10

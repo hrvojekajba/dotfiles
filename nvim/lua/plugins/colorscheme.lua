@@ -51,13 +51,6 @@ return {
     end,
   },
   {
-    "thesimonho/kanagawa-paper.nvim",
-    priority = 1000,
-    opts = {
-      transparent = true,
-    },
-  },
-  {
     "webhooked/kanso.nvim",
     name = "kanso",
     priority = 1000,
@@ -100,14 +93,26 @@ return {
           transparent = true,
         },
       })
-      -- vim.cmd("colorscheme github-dark")
-      vim.cmd("colorscheme github_dark") -- if you want to swap to another theme, DELETE THIS
+      -- vim.cmd("colorscheme github-dark") -- if you want to use another theme, comment this out
+    end,
+  },
+  {
+    "Mofiqul/vscode.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("vscode").setup({
+        transparent = true,
+        italic_comments = true,
+        underline_links = true,
+        disable_nvimtree_bg = true,
+      })
     end,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanso",
+      colorscheme = "vscode",
     },
   },
 }
