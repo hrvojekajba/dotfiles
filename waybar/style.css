@@ -13,7 +13,7 @@
 
 window#waybar {
   background: rgba(30, 30, 30, 0.2);
-  color: #D3C6AA;
+  color: white;
 }
 
 tooltip {
@@ -28,18 +28,18 @@ tooltip label {
 #workspaces button {
   padding: 0 5px;
   background: transparent;
-  color: #D3C6AA;
+  color: white;
   border-bottom: 3px solid transparent;
 }
 
 #workspaces button.focused {
-    border: solid 2px rgba(30, 30, 30, 1);
+    border: solid 2px white;
     border-radius: 3px;
 }
 
 .modules-left {
   border-radius: 5px;
-  border: 1px solid #c5c9c7;
+  border: 1px solid white;
   background-color: rgba(30, 30, 30, 0.9);
   padding-left: 8px;
   padding-right: 8px;
@@ -47,7 +47,7 @@ tooltip label {
 
 .modules-center {
   border-radius: 5px;
-  border: 1px solid #c5c9c7;
+  border: 1px solid white;
   background-color: rgba(30, 30, 30, 0.9);
   padding-left: 8px;
   padding-right: 8px;
@@ -55,7 +55,7 @@ tooltip label {
 
 .modules-right {
   border-radius: 5px;
-  border: 1px solid #c5c9c7;
+  border: 1px solid white;
   background-color: rgba(30, 30, 30, 0.9);
   padding-left: 8px;
   padding-right: 8px;
@@ -67,11 +67,11 @@ tooltip label {
 }
 
 #clock {
-  color: #A5A7A4;
+  color: white;
 }
 
 #battery {
-  color: #A5A7A4;
+  color: white;
 }
 
 #battery.charging {
