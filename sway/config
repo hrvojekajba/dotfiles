@@ -15,14 +15,14 @@ workspace 1 output DP-2
 workspace 1 output HDMI-A-1
 
 #WALLPAPER
-output * bg /home/hrvojekajba/mountains.jpg fill
+output * bg /home/hrvojekajba/kanso.jpg fill
 
 #BORDERS
 gaps inner 5
 gaps outer 5
 
 #SCREENSHOT
-bindsym Mod4+Shift+p exec grimshot save area
+bindsym Mod4+Shift+p exec grim -g "$(slurp)" - | wl-copy
 
 #GTK THEMES
 set $gnome-schema org.gnome.desktop.interface
