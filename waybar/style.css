@@ -1,5 +1,5 @@
 * {
-  color: white;
+  color: #e0def4;
   border: none;
   border-radius: 0;
   font-family: monospace, monospace;
@@ -12,7 +12,7 @@
 }
 
 window#waybar {
-  background: rgba(30, 30, 30, 0.2);
+  background: rgba(31, 25, 39, 0.2);
   color: white;
 }
 
@@ -28,35 +28,35 @@ tooltip label {
 #workspaces button {
   padding: 0 5px;
   background: transparent;
-  color: white;
+  color: #e0def4;
   border-bottom: 3px solid transparent;
 }
 
 #workspaces button.focused {
-    border: solid 2px white;
+    border: solid 2px #e0def4;
     border-radius: 3px;
 }
 
 .modules-left {
   border-radius: 5px;
-  border: 1px solid white;
-  background-color: rgba(30, 30, 30, 0.9);
+  border: 1px solid #e0def4;
+  background-color: rgba(31, 25, 39, 0.9);
   padding-left: 8px;
   padding-right: 8px;
 }
 
 .modules-center {
   border-radius: 5px;
-  border: 1px solid white;
-  background-color: rgba(30, 30, 30, 0.9);
+  border: 1px solid #e0def4;
+  background-color: rgba(31, 25, 39, 0.9);
   padding-left: 8px;
   padding-right: 8px;
 }
 
 .modules-right {
   border-radius: 5px;
-  border: 1px solid white;
-  background-color: rgba(30, 30, 30, 0.9);
+  border: 1px solid #e0def4;
+  background-color: rgba(31, 25, 39, 0.9);
   padding-left: 8px;
   padding-right: 8px;
 }
