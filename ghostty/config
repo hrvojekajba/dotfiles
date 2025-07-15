@@ -44,10 +44,13 @@
 
 font-family = "MonaspiceNe Nerd Font Mono"
 
-background = 13171C
+background = 000000
 #1E1E1E vscode
 #13171C kanso
 #1F1927 rose-pine
+#1E1E2E catppuccin
+#272E33 everforest
+#0A0E14 ayu
 background-opacity = 0.8
 foreground = C5C9C7
 window-padding-x = 10

@@ -93,7 +93,7 @@ return {
           transparent = true,
         },
       })
-      -- vim.cmd("colorscheme github-dark") -- if you want to use another theme, comment this out
+      -- vim.cmd("colorscheme github_dark")
     end,
   },
   {
@@ -110,9 +110,32 @@ return {
     end,
   },
   {
+    "Shatur/neovim-ayu",
+    name = "ayu",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("ayu").setup({
+        mirage = false,
+        terminal = false,
+        overrides = {
+          Normal = { bg = "None" },
+          NormalFloat = { bg = "none" },
+          ColorColumn = { bg = "None" },
+          SignColumn = { bg = "None" },
+          Folded = { bg = "None" },
+          FoldColumn = { bg = "None" },
+          CursorLine = { bg = "None" },
+          CursorColumn = { bg = "None" },
+          VertSplit = { bg = "None" },
+        },
+      })
+    end,
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "vscode",
+      colorscheme = "ayu",
     },
   },
 }
