@@ -15,7 +15,7 @@ workspace 1 output DP-2
 workspace 1 output HDMI-A-1
 
 #WALLPAPER
-output * bg /home/hrvojekajba/mountains.jpg fill
+output * bg /home/hrvojekajba/bluepainting.jpg fill
 
 #BORDERS
 gaps inner 5

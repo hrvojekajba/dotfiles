@@ -43,14 +43,19 @@
 # resize-overlay-duration = 4s 200ms
 
 font-family = "MonaspiceNe Nerd Font Mono"
+font-size = 13
 
-background = 000000
+background = 14171D
 #1E1E1E vscode
-#13171C kanso
+#14171D kanso
 #1F1927 rose-pine
 #1E1E2E catppuccin
 #272E33 everforest
 #0A0E14 ayu
-background-opacity = 0.8
-foreground = C5C9C7
+#0D1117 github-dark
+#202020 gruvbox-material
+#212121 material-darker
+#090909 poimandres-gray
+background-opacity = 0.93
+foreground = FFFFFF
 window-padding-x = 10

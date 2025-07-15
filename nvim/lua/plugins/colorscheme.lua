@@ -65,11 +65,27 @@ return {
     end,
   },
   {
+    "marko-cerovac/material.nvim",
+    name = "material",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("material").setup({
+        disable = { background = true },
+      })
+    end,
+  },
+  {
     "WTFox/jellybeans.nvim",
     priority = 1000,
     opts = {
       transparent = true,
       italics = true,
+      flat_ui = true,
+      plugins = {
+        all = false,
+        auto = true,
+      },
     },
   },
   {
@@ -110,32 +126,20 @@ return {
     end,
   },
   {
-    "Shatur/neovim-ayu",
-    name = "ayu",
+    "olivercederborg/poimandres.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      require("ayu").setup({
-        mirage = false,
-        terminal = false,
-        overrides = {
-          Normal = { bg = "None" },
-          NormalFloat = { bg = "none" },
-          ColorColumn = { bg = "None" },
-          SignColumn = { bg = "None" },
-          Folded = { bg = "None" },
-          FoldColumn = { bg = "None" },
-          CursorLine = { bg = "None" },
-          CursorColumn = { bg = "None" },
-          VertSplit = { bg = "None" },
-        },
+      require("poimandres").setup({
+        disable_background = true,
+        disable_float_background = true,
       })
     end,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "ayu",
+      colorscheme = "kanso",
     },
   },
 }
