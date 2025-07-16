@@ -2,7 +2,6 @@ return {
 	"neovim/nvim-lspconfig",
 	config = function()
 		vim.lsp.enable({
-			"gopls",
 			"clangd",
 			"cssls",
 			"emmet_language_server",

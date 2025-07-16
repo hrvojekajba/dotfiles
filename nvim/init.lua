@@ -1,5 +1,8 @@
+-- disable newtr
 vim.g.loaded_netrw = 1
 vim.g.loaded_newrwPlugin = 1
+-- remove tilde from empty lines
+vim.opt.fillchars = { eob = " " }
 --- KEYMAPS ---
 -- use space as leader
 vim.g.mapleader = ' ' 
@@ -17,6 +20,8 @@ vim.o.signcolumn = 'yes'
 vim.o.tabstop = 2
 vim.o.shiftwidth = 2
 vim.o.wrap = false
+-- diagnostics
+vim.diagnostic.config({ virtual_text = false })
 
 -- LAZY PACKAGE MANAGER CONFIGRATION
 require("config.lazy")
@@ -40,3 +45,15 @@ vim.cmd("colorscheme kanso")
 -- load nvim-tree
 require("nvim-tree").setup()
 vim.keymap.set('n', '<leader>e', ":NvimTreeToggle<CR>", { noremap = true })
+
+-- load mason.nvim
+require("mason").setup()
+
+-- load lualine.nvim
+require("lualine").setup()
+
+-- tiny-inline-diagnostic
+require("tiny-inline-diagnostic").setup({
+	preset = "minimal",
+	transparent_bg = true,
+})
