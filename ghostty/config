@@ -58,4 +58,4 @@ background = 14171D
 #090909 poimandres-gray
 background-opacity = 0.93
 foreground = FFFFFF
-window-padding-x = 10
+window-padding-x = 5
