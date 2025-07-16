@@ -5,10 +5,10 @@
   font-family: monospace, monospace;
   font-size: 14px;
   min-height: 0;
-  margin-left: 3px;
-  margin-right: 3px;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 window#waybar {
@@ -42,23 +42,23 @@ tooltip label {
 
 .modules-left {
   border-radius: 5px;
-  background-color: rgba(19, 23, 28, 0);
-  padding-left: 8px;
-  padding-right: 8px;
+  background-color: rgba(20, 23, 29, 0.93);
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 .modules-center {
   border-radius: 5px;
-  background-color: rgba(19, 23, 28, 0);
-  padding-left: 8px;
-  padding-right: 8px;
+  background-color: rgba(20, 23, 29, 0.93);
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 .modules-right {
   border-radius: 5px;
-  background-color: rgba(19, 23, 28, 0);
-  padding-left: 8px;
-  padding-right: 8px;
+  background-color: rgba(20, 23, 29, 0.93);
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 #mode {
@@ -71,7 +71,7 @@ tooltip label {
 }
 
 #battery {
-  color: white;
+  color: white; 
 }
 
 #battery.charging {
