@@ -22,7 +22,7 @@ gaps inner 5
 gaps outer 5
 
 #SCREENSHOT
-bindsym Mod4+Shift+p exec grim -g "$(slurp)" - | wl-copy
+bindsym Mod4+Shift+p exec grim -g "$(slurp)" - | tee "$HOME/Pictures/Screenshots"/"Screenshot_$(date +%Y%m%d-%H%M%S).png" | wl-copy
 
 #GTK THEMES
 set $gnome-schema org.gnome.desktop.interface
