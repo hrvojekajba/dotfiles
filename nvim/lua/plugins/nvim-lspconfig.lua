@@ -9,6 +9,7 @@ return {
 			"ts_ls",
 			"basedpyright",
 			"rust_analyzer",
+			"gopls",
 		})
 	end,
 }

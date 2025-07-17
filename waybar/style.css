@@ -37,26 +37,26 @@ tooltip label {
 }
 
 #workspaces button.focused label {
-  color: rgb(19, 23, 28);
+  color: rgb(31, 31, 40);
 }
 
 .modules-left {
   border-radius: 5px;
-  background-color: rgba(20, 23, 29, 0.93);
+  background-color: rgba(31, 31, 40, 0.85);
   padding-left: 11px;
   padding-right: 11px;
 }
 
 .modules-center {
   border-radius: 5px;
-  background-color: rgba(20, 23, 29, 0.93);
+  background-color: rgba(31, 31, 40, 0.85);
   padding-left: 11px;
   padding-right: 11px;
 }
 
 .modules-right {
   border-radius: 5px;
-  background-color: rgba(20, 23, 29, 0.93);
+  background-color: rgba(31, 31, 40, 0.85);
   padding-left: 11px;
   padding-right: 11px;
 }
