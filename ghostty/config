@@ -50,6 +50,6 @@ background = 1F1F28
 #1F1927 rose-pine
 #1F1F28 kanagawa
 #272E33 everforest
-background-opacity = 0.95
+background-opacity = 0.875
 foreground = FFFFFF
 window-padding-x = 5
