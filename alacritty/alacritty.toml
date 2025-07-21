@@ -1,0 +1,9 @@
+[window]
+opacity = 0.9
+
+[colors.primary]
+background = "#000000"
+
+[font]
+normal = { family = "MonaspiceNe Nerd Font Mono", style = "Regular"  }
+size = 13.0
