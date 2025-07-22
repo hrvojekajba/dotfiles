@@ -42,14 +42,15 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-font-family = "MonaspiceNe Nerd Font Mono"
+font-family = "JetbrainsMono Nerd Font"
 font-size = 13
 
-background = 1F1F28
+background = 282828
 #14171D kanso
 #1F1927 rose-pine
 #1F1F28 kanagawa
 #272E33 everforest
-background-opacity = 0.875
+#222327 sonokai
+#282828 gruvbox-material
+background-opacity = 0.925
 foreground = FFFFFF
-window-padding-x = 5

@@ -5,13 +5,13 @@ vim.g.loaded_newrwPlugin = 1
 vim.opt.fillchars = { eob = " " }
 --- KEYMAPS ---
 -- use space as leader
-vim.g.mapleader = ' ' 
+vim.g.mapleader = ' '
 -- yank into system clipboard
-vim.keymap.set({'n', 'v'}, '<leader>y', '"+y"') -- yank motion
-vim.keymap.set({'n','v'}, '<leader>Y', '"+Y"') -- yank line
+vim.keymap.set({ 'n', 'v' }, '<leader>y', '"+y"') -- yank motion
+vim.keymap.set({ 'n', 'v' }, '<leader>Y', '"+Y"') -- yank line
 -- paste from system clipboard
-vim.keymap.set('n', '<leader>p', '"+p"') -- paste after cursor
-vim.keymap.set('n', '<leader>P', '"+P"') -- paste before cursor
+vim.keymap.set('n', '<leader>p', '"+p"')          -- paste after cursor
+vim.keymap.set('n', '<leader>P', '"+P"')          -- paste before cursor
 
 -- COMMON SETTINGS
 vim.o.number = true
@@ -26,9 +26,6 @@ vim.diagnostic.config({ virtual_text = false })
 -- LAZY PACKAGE MANAGER CONFIGRATION
 require("config.lazy")
 
--- treesitter
-require("lazy").setup({{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}})
-
 -- set telescope keybindings
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
@@ -41,7 +38,8 @@ require('mini.pairs').setup()
 
 -- set colorscheme
 -- vim.cmd("colorscheme kanso")
-vim.cmd("colorscheme kanagawa")
+vim.g.gruvbox_material_transparent_background = 2
+vim.cmd("colorscheme gruvbox-material")
 
 -- load nvim-tree
 require("nvim-tree").setup()
