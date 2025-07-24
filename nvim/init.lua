@@ -38,8 +38,8 @@ require('mini.pairs').setup()
 
 -- set colorscheme
 -- vim.cmd("colorscheme kanso")
-vim.g.gruvbox_material_transparent_background = 2
-vim.cmd("colorscheme gruvbox-material")
+vim.g.everforest_transparent_background = 2
+vim.cmd("colorscheme everforest")
 
 -- load nvim-tree
 require("nvim-tree").setup()
