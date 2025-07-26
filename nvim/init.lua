@@ -37,8 +37,7 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help ta
 require('mini.pairs').setup()
 
 -- set colorscheme
--- vim.cmd("colorscheme kanso")
-vim.cmd("colorscheme kanagawa-dragon")
+vim.cmd("colorscheme vitesse")
 
 -- load nvim-tree
 require("nvim-tree").setup()

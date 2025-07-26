@@ -45,15 +45,11 @@
 font-family = "MonaspiceNe Nerd Font Mono"
 font-size = 12.5
 
-background = 181616
-#14171D kanso
-#1F1927 rose-pine
+background = 121212
 #1F1F28 kanagawa
 #181616 kanagawa-dragon
-#272E33 everforest
-#222327 sonokai
-#282828 gruvbox-material
-background-opacity = 0.975
+#121212 vitesse
+background-opacity = 0.9
 foreground = FFFFFF
 shell-integration-features = no-cursor
 cursor-style = block
