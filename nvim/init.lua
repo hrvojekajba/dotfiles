@@ -38,8 +38,7 @@ require('mini.pairs').setup()
 
 -- set colorscheme
 -- vim.cmd("colorscheme kanso")
-vim.g.everforest_transparent_background = 2
-vim.cmd("colorscheme everforest")
+vim.cmd("colorscheme kanagawa-dragon")
 
 -- load nvim-tree
 require("nvim-tree").setup()

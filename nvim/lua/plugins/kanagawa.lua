@@ -17,6 +17,7 @@ return {
 					},
 				},
 			},
+			theme = "dragon",
 		})
 	end,
 }
