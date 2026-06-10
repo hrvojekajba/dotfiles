@@ -42,12 +42,12 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-font-family = "SauceCodePro NF Medium"
+font-family = "GeistMono NF Medium"
 font-size = 13
 
 window-height = 35
-window-width = 120
+window-width = 110
 
 window-padding-x = 15
 
-theme = dark:GitHub Dark Default,light:GitHub
+theme = dark:GitHub Dark Default,light:GitHub Light Default
