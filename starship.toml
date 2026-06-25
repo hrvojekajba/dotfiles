@@ -1,5 +1,9 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+format = """$username$hostname$directory$git_branch$git_state$git_status$status$character"""
+
+add_newline = false
+
 [aws]
 symbol = " "
 
@@ -22,6 +26,10 @@ symbol = " "
 [c]
 symbol = " "
 
+[character]
+success_symbol = '[~>](bold green)'
+error_symbol = '[~>](bold red)'
+
 [cpp]
 symbol = " "
 
@@ -30,6 +38,9 @@ symbol = " "
 
 [cobol]
 symbol = " "
+
+[cmd_duration]
+disabled = true
 
 [conda]
 symbol = " "
@@ -51,6 +62,17 @@ symbol = " "
 
 [directory]
 read_only = " 󰌾"
+home_symbol = ""
+format = "([ in ](bright white)[$path]($style))[$read_only]($read_only_style) "
+style = "bold cyan"
+truncation_symbol = ""
+truncate_to_repo = false
+
+[[directory.substitutions]]
+files = []
+from = "^/"
+to = ""
+regex = true
 
 [docker_context]
 symbol = " "
@@ -110,7 +132,10 @@ symbol = " "
 symbol = " "
 
 [hostname]
+ssh_only = false
 ssh_symbol = " "
+format = '[@](bold bright white)[$hostname]($style)'
+style = 'bold green'
 
 [java]
 symbol = " "
@@ -123,6 +148,9 @@ symbol = " "
 
 [kubernetes]
 symbol = "󱃾 "
+
+[line_break]
+disabled = false
 
 [lua]
 symbol = " "
@@ -294,6 +322,13 @@ symbol = " "
 
 [typst]
 symbol = " "
+
+[username]
+show_always = true
+style_root = 'bold red'
+style_user = 'bold blue'
+format = '[$user]($style)'
+
 
 [vagrant]
 symbol = " "
