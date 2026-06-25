@@ -185,9 +185,7 @@
   {
     "context": "Editor && mode == auto_height",
     "bindings": {
-      "ctrl-enter": "editor::Newline",
       "shift-enter": "editor::Newline",
-      "ctrl-shift-enter": "editor::NewlineBelow",
     },
   },
   {
@@ -241,7 +239,6 @@
       "ctrl-n": "agent::NewThread",
       "ctrl-alt-c": "agent::OpenSettings",
       "ctrl-alt-p": "agent::ManageProfiles",
-      "ctrl-alt-l": "agent::OpenRulesLibrary",
       "ctrl-i": "agent::ToggleProfileSelector",
       "shift-tab": "agent::CycleModeSelector",
       "ctrl-alt-/": "agent::ToggleModelSelector",
@@ -253,7 +250,6 @@
       "shift-alt-escape": "agent::ExpandMessageEditor",
       "ctrl->": "agent::AddSelectionToThread",
       "ctrl-shift-e": "project_panel::ToggleFocus",
-      "ctrl-shift-enter": "agent::ContinueThread",
       "shift-alt-q": "agent::AllowAlways",
       "shift-alt-a": "agent::AllowOnce",
       "ctrl-alt-a": "agent::OpenPermissionDropdown",
@@ -271,14 +267,6 @@
       "copy": "markdown::CopyAsMarkdown",
       "ctrl-insert": "markdown::CopyAsMarkdown",
       "ctrl-c": "markdown::CopyAsMarkdown",
-    },
-  },
-  {
-    "context": "AgentPanel && acp_thread",
-    "use_key_equivalents": true,
-    "bindings": {
-      "ctrl-n": "agent::NewExternalAgentThread",
-      "ctrl-alt-t": "agent::NewThread",
     },
   },
   {
@@ -408,9 +396,6 @@
   {
     "context": "RulesLibrary",
     "bindings": {
-      "new": "rules_library::NewRule",
-      "ctrl-n": "rules_library::NewRule",
-      "ctrl-shift-s": "rules_library::ToggleDefaultRule",
       "ctrl-w": "workspace::CloseWindow",
     },
   },
@@ -617,7 +602,6 @@
       "ctrl-shift-space": "editor::ShowWordCompletions",
       "ctrl-.": "editor::ToggleCodeActions",
       "ctrl-k r": "editor::RevealInFileManager",
-      "ctrl-k p": "editor::CopyPath",
       "ctrl-\\": "pane::SplitRight",
       "ctrl-alt-shift-c": "editor::DisplayCursorNames",
       "alt-.": "editor::GoToHunk",
@@ -665,7 +649,6 @@
         "projects::OpenRemote",
         { "from_existing_connection": false, "create_new_window": false },
       ],
-      "alt-ctrl-shift-b": "branches::OpenRecent",
       "alt-ctrl-shift-w": "git::Worktree",
       "alt-shift-enter": "toast::RunAction",
       "ctrl-~": "workspace::NewTerminal",
@@ -791,9 +774,7 @@
   },
   {
     "context": "Workspace && debugger_running",
-    "bindings": {
-      "f5": "zed::NoAction",
-    },
+    "bindings": {},
   },
   {
     "context": "Workspace && debugger_stopped",
@@ -967,8 +948,6 @@
       "escape": "menu::Cancel",
       "left": "outline_panel::CollapseSelectedEntry",
       "right": "outline_panel::ExpandSelectedEntry",
-      "alt-copy": "outline_panel::CopyPath",
-      "ctrl-alt-c": "outline_panel::CopyPath",
       "alt-shift-copy": "workspace::CopyRelativePath",
       "alt-ctrl-shift-c": "workspace::CopyRelativePath",
       "alt-ctrl-r": "outline_panel::RevealInFileManager",
@@ -997,8 +976,6 @@
       "paste": "project_panel::Paste",
       "shift-insert": "project_panel::Paste",
       "ctrl-v": "project_panel::Paste",
-      "alt-copy": "project_panel::CopyPath",
-      "ctrl-alt-c": "project_panel::CopyPath",
       "alt-shift-copy": "workspace::CopyRelativePath",
       "alt-ctrl-shift-c": "workspace::CopyRelativePath",
       "undo": "project_panel::Undo",
@@ -1576,4 +1553,16 @@
       "ctrl-shift-backspace": "worktree_picker::DeleteWorktree",
     },
   },
+  {
+    "context": "Editor && mode == auto_height",
+    "bindings": {
+      "ctrl-enter": "editor::NewlineBelow"
+    }
+  },
+  {
+    "context": "Editor && mode == auto_height",
+    "unbind": {
+      "ctrl-shift-enter": "editor::NewlineBelow"
+    }
+  }
 ]
