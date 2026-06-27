@@ -27,8 +27,8 @@ symbol = " "
 symbol = " "
 
 [character]
-success_symbol = '[~>](bold green)'
-error_symbol = '[~>](bold red)'
+success_symbol = '[>>](bold green)'
+error_symbol = '[>>](bold red)'
 
 [cpp]
 symbol = " "
@@ -62,17 +62,11 @@ symbol = " "
 
 [directory]
 read_only = " 󰌾"
-home_symbol = ""
+home_symbol = "~"
 format = "([ in ](bright white)[$path]($style))[$read_only]($read_only_style) "
 style = "bold cyan"
 truncation_symbol = ""
 truncate_to_repo = false
-
-[[directory.substitutions]]
-files = []
-from = "^/"
-to = ""
-regex = true
 
 [docker_context]
 symbol = " "
