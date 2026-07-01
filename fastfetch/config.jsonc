@@ -81,9 +81,14 @@
         {
             "type": "packages",
             "key": "│ ├󰏖 ",
-            "format": "dnf: {rpm} | Flatpack: {flatpak-all}",
+            "format": "pacman: {pacman} | Flatpack: {flatpak-all}",
             "keyColor": "green",
         },
+	{
+	    "type": "terminalfont",
+	    "key": "│ ├ ",
+	    "keyColor": "green",
+	},
         {
             "type": "custom",
             "format": "\u001b[32m└────────────────────────────────────────────────────┘",
