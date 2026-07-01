@@ -86,7 +86,7 @@
         },
 	{
 	    "type": "terminalfont",
-	    "key": "│ ├ ",
+	    "key": "│ ├" ,
 	    "keyColor": "green",
 	},
         {
