@@ -2,21 +2,17 @@
   "project_panel": {
     "dock": "right",
   },
-  "icon_theme": {
-    "mode": "system",
-    "light": "Colored Zed Icons Theme Light",
-    "dark": "Colored Zed Icons Theme Dark",
-  },
+  "icon_theme": "Material Icon Theme",
   "ui_font_size": 16,
-  "ui_font_family": "Inter 18pt",
-  "buffer_font_family": "Liga SFMono Nerd Font",
+  "ui_font_family": "Noto Sans",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_weight": 500,
   "buffer_font_size": 17,
   "buffer_line_height": "comfortable",
   "theme": {
     "mode": "system",
-    "light": "GitHub Light",
-    "dark": "GitHub Dark",
+    "light": "Ayu Light",
+    "dark": "Ayu Mirage",
   },
   "disable_ai": true,
   "git": {
