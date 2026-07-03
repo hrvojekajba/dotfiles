@@ -42,8 +42,7 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-font-family = "JetBrainsMono Nerd Font"
-font-style = Medium
+font-family = "JetBrainsMono NF Medium"
 font-size = 12.5
 font-feature = calt
 
@@ -52,4 +51,4 @@ window-width = 130
 
 window-padding-x = 15
 
-theme = dark:Atom One Dark,light:Atom One Light
+theme = dark:Catppuccin Mocha,light:Catppuccin Latte
