@@ -52,4 +52,4 @@ window-width = 130
 
 window-padding-x = 15
 
-theme = dark:GitHub Dark Dimmed,light:GitHub 
+theme = dark:Atom One Dark,light:Atom One Light
