@@ -2,17 +2,20 @@
   "project_panel": {
     "dock": "right",
   },
-  "icon_theme": "Material Icon Theme",
-  "ui_font_size": 15,
-  "ui_font_family": "Inter",
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "icon_theme": {
+    "dark": "JetBrains New UI Icons (Dark)",
+    "light": "JetBrains New UI Icons (Light)",
+  },
+  "ui_font_size": 16,
+  "ui_font_family": "SF Pro",
+  "buffer_font_family": "SFMono Nerd Font",
   "buffer_font_weight": 500,
   "buffer_font_size": 17,
   "buffer_line_height": "comfortable",
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha",
+    "light": "JetBrains Light",
+    "dark": "JetBrains Dark",
   },
   "disable_ai": true,
   "git": {
