@@ -1,5 +1,5 @@
-font-family = "SFMono Nerd Font"
-font-style = Medium
+font-family = "JetBrainsMonoNL Nerd Font"
+font-style = SemiBold
 font-size = 12.5
 font-feature = calt
 
@@ -8,4 +8,4 @@ window-width = 130
 
 window-padding-x = 15
 
-theme = dark:Adwaita Dark,light:Adwaita
+theme = dark:Aizen Dark,light:Aizen Light
