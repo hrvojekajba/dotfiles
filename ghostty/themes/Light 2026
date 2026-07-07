@@ -1,0 +1,31 @@
+# Light 2026 — Ghostty theme
+# Derived from the "2026 Light" VS Code color theme (2026-light.json)
+
+background = FFFFFF
+foreground = 202020
+
+cursor-color = 202020
+cursor-text = FFFFFF
+
+selection-background = D9E9F7
+selection-foreground = 202020
+
+# Normal colors
+palette = 0=#202020
+palette = 1=#AD0707
+palette = 2=#388A34
+palette = 3=#B69500
+palette = 4=#0069CC
+palette = 5=#652D90
+palette = 6=#0089B3
+palette = 7=#D8D8D8
+
+# Bright colors
+palette = 8=#606060
+palette = 9=#E14B4B
+palette = 10=#587C0C
+palette = 11=#D18616
+palette = 12=#3399E6
+palette = 13=#8452A8
+palette = 14=#33A8CC
+palette = 15=#FFFFFF

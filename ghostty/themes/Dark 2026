@@ -1,0 +1,31 @@
+# Dark 2026 — Ghostty theme
+# Derived from the "2026 Dark" VS Code color theme (2026-dark.json)
+
+background = 121314
+foreground = BFBFBF
+
+cursor-color = BFBFBF
+cursor-text = 191A1B
+
+selection-background = 1A2D36
+selection-foreground = BFBFBF
+
+# Normal colors
+palette = 0=#333536
+palette = 1=#EF8773
+palette = 2=#86CF86
+palette = 3=#CD861A
+palette = 4=#57A3F8
+palette = 5=#AD80D7
+palette = 6=#297AA0
+palette = 7=#BFBFBF
+
+# Bright colors
+palette = 8=#8C8C8C
+palette = 9=#FF9A85
+palette = 10=#73C991
+palette = 11=#E0B97F
+palette = 12=#8AB4FF
+palette = 13=#C9A0E8
+palette = 14=#5BA8CC
+palette = 15=#FFFFFF
